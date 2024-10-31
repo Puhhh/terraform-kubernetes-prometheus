@@ -16,12 +16,6 @@ variable "prometheus-namespace" {
   default     = "monitoring"
 }
 
-variable "helm-name" {
-  description = "Helm Release Name"
-  type        = string
-  default     = "kube-prometheus-stack"
-}
-
 variable "helm-chart-name" {
   description = "Helm Chart Name"
   type        = string
